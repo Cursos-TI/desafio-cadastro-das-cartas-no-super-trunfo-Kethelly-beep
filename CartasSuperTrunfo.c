@@ -51,5 +51,11 @@ int main() {
     printf("Informe a área:");
     scanf("%f", &area);
     printf("Área: %f\n", area);
+
+    
+    printf("Informe as caraterísticas da cidade\n");
+    printf("Informe o PIB:");
+    scanf("%f", &pib);
+    printf("PIB: %s\n", pib);
     return 0;
 }
