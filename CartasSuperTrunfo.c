@@ -23,5 +23,10 @@ int main() {
     int população, pont_turisticos;
     float area, pib;
 
+    printf("Informe as caraterísticas da cidade\n");
+    printf("Informe o nome da cidade:");
+    scanf("%s", &nome_city);
+    printf("Cidade: %s\n", nome_city);
+
     return 0;
 }
