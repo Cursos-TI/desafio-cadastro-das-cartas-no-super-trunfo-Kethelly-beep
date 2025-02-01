@@ -21,7 +21,7 @@ int main() {
      
     char nome_city[20], cod_city;
     int população, pont_turisticos;
-    
+    float area, pib;
 
     return 0;
 }
