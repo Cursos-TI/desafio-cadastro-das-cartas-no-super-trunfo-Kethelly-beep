@@ -29,31 +29,26 @@ int main() {
     printf("Cidade: %s\n", nome_city);
 
 
-    printf("Informe as caraterísticas da cidade\n");
     printf("Informe o código da cidade:");
     scanf("%s", &cod_city);
     printf("Código: %s\n", cod_city);
 
     
-    printf("Informe as caraterísticas da cidade\n");
     printf("Informe a população da cidade:");
     scanf("%d", &populacao);
     printf("População: %d\n", populacao);
 
     
-    printf("Informe as caraterísticas da cidade\n");
     printf("Informe a quantidade de pontos turísticos:");
     scanf("%d", &pont_turisticos);
     printf("Pontos Turísticos: %d\n", pont_turisticos);
 
     
-    printf("Informe as caraterísticas da cidade\n");
     printf("Informe a área:");
     scanf("%f", &area);
     printf("Área: %f\n", area);
 
     
-    printf("Informe as caraterísticas da cidade\n");
     printf("Informe o PIB:");
     scanf("%f", &pib);
     printf("PIB: %s\n", pib);
