@@ -39,5 +39,17 @@ int main() {
     printf("Informe a população da cidade:");
     scanf("%d", &populacao);
     printf("População: %d\n", populacao);
+
+    
+    printf("Informe as caraterísticas da cidade\n");
+    printf("Informe a quantidade de pontos turísticos:");
+    scanf("%d", &pont_turisticos);
+    printf("Pontos Turísticos: %d\n", pont_turisticos);
+
+    
+    printf("Informe as caraterísticas da cidade\n");
+    printf("Informe a área:");
+    scanf("%f", &area);
+    printf("Área: %f\n", area);
     return 0;
 }
