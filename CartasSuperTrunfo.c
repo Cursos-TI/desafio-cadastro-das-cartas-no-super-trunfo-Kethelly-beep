@@ -28,7 +28,7 @@ int main() {
     scanf("%s", &nome);
     printf("Cidade: %s\n", nome);
 
-
+printf("Informe as caraterísticas da cidade\n");
     printf("Informe o código da cidade:");
     scanf("%s", &cod);
     printf("Código: %s\n", cod);
