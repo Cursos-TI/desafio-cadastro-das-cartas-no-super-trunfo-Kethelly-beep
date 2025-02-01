@@ -20,7 +20,7 @@ int main() {
 
      
     char nome_city[20], cod_city;
-    int população, pont_turisticos;
+    int populacao, pont_turisticos;
     float area, pib;
 
     printf("Informe as caraterísticas da cidade\n");
@@ -28,5 +28,16 @@ int main() {
     scanf("%s", &nome_city);
     printf("Cidade: %s\n", nome_city);
 
+
+    printf("Informe as caraterísticas da cidade\n");
+    printf("Informe o código da cidade:");
+    scanf("%s", &cod_city);
+    printf("Código: %s\n", cod_city);
+
+    
+    printf("Informe as caraterísticas da cidade\n");
+    printf("Informe a população da cidade:");
+    scanf("%d", &populacao);
+    printf("População: %d\n", populacao);
     return 0;
 }
