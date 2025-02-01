@@ -31,7 +31,7 @@ int main() {
 
     printf("Informe o código da cidade:");
     scanf("%s", &cod);
-    printf("Código: %s\n", cod;
+    printf("Código: %s\n", cod);
 
     
     printf("Informe a população da cidade:");
