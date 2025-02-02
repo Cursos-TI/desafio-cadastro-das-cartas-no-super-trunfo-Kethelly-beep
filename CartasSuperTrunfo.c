@@ -51,6 +51,6 @@ int main() {
     
     printf("Informe o PIB:");
     scanf("%f", &pib);
-    printf("PIB: %s\n", pib);
+    printf("PIB: %f\n", pib);
     return 0;
 }
