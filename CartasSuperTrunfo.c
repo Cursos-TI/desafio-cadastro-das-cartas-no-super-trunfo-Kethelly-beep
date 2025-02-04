@@ -53,5 +53,10 @@ int main() {
     printf("Informe o PIB:");
     scanf("%f", &pib);
     printf("PIB: %f\n", pib);
+
+    densidade = populacao / area;
+    pib_per = pib/ populacao;
+
+    
     return 0;
 }
