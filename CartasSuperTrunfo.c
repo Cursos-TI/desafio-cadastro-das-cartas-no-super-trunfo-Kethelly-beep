@@ -56,7 +56,7 @@ int main() {
     printf("Pontos Turísticos: %d\n", pont_turisticos);
     printf("Área: %.1f\n", area);
     printf("PIB: %.4f\n", pib);
-    printf("A densidade é: %2.f\n", densidade);
+    printf("A densidade é: %.2f\n", densidade);
     printf("O PIB per capita é: %f\n", pib_per);
     return 0;
 }
