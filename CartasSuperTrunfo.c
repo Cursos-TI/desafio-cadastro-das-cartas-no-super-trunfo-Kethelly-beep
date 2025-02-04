@@ -47,7 +47,7 @@ int main() {
     printf("Informe o PIB:");
     scanf("%f", &pib);
 
-    densidade = populacao / area;
+    densidade =populacao / area;
     pib_per = pib/ populacao;
     
     printf("Cidade: %s\n", nome);
@@ -55,8 +55,8 @@ int main() {
     printf("População: %d\n", populacao);
     printf("Pontos Turísticos: %d\n", pont_turisticos);
     printf("Área: %.1f\n", area);
-    printf("PIB: %.1f\n", pib);
+    printf("PIB: %.4f\n", pib);
     printf("A densidade é: %2.f\n", densidade);
-    printf("O PIB per capita é: %2.f\n", pib_per);
+    printf("O PIB per capita é: %f\n", pib_per);
     return 0;
 }
