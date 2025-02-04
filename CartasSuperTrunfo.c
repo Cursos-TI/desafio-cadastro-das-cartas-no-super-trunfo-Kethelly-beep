@@ -21,7 +21,8 @@ int main() {
      
     char nome[20];
     int populacao, pont_turisticos, cod;
-    float area, pib;
+    float area, pib, densidade, pib_per;
+
 
     printf("Informe as caraterísticas da cidade\n");
     printf("Informe o nome da cidade:");
