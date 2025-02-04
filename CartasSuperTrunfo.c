@@ -54,8 +54,8 @@ int main() {
     scanf("%f", &pib);
     printf("PIB: %f\n", pib);
 
-    densidade = populacao / area;
-    pib_per = pib/ populacao;
+    densidade =(float) populacao / area;
+    pib_per = (float)pib/ populacao;
 
     printf("A densidade é: %2.f\n", densidade);
     printf("O PIB per capita é: %2.f\n", pib_per);
