@@ -20,17 +20,13 @@ int main() {
 
      
     char nome[20];
-    int populacao, pont_turisticos, cod;
+    int populacao, pont_turisticos;
     float area, pib, densidade, pib_per;
 
 
     printf("*** Informe as caraterísticas da cidade ***\n");
     printf("Informe o nome da cidade:");
     scanf("%s", &nome);
-
-    printf("Informe o código da cidade:");
-    scanf("%d", &cod);
-
     
     printf("Informe a população da cidade:");
     scanf("%d", &populacao);
@@ -51,7 +47,6 @@ int main() {
     pib_per = pib/ populacao;
     
     printf("Cidade: %s\n", nome);
-    printf("Codigo: %d\n", cod);
     printf("População: %d\n", populacao);
     printf("Pontos Turísticos: %d\n", pont_turisticos);
     printf("Área: %.1f\n", area);
